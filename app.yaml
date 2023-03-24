@@ -4,6 +4,6 @@ entrypoint: gunicorn -b :$PORT app:app
 runtime_config:
     python_version: 3.7
 env_variables:
-    CLOUD_STORAGE_BUCKET: 	peppy-sensor-377504
+    CLOUD_STORAGE_BUCKET:peppy-sensor-377504
 manual_scaling:
     instances: 1
